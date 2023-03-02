@@ -8,3 +8,4 @@ let bmi: (height: number, weight: number) => number = function(
 };
 
 console.log(bmi(1.78,86));
+//ok reactでは使わない。

@@ -1,5 +1,5 @@
 export {};
-
+//交差型　複数の型を合体させるもの
 type pitcher1 = {
 throwingSpeed: number;
 };
