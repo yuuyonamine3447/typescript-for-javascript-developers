@@ -7,10 +7,11 @@ type Profile = {
 
 type PartialProfile = Partial<Profile>;
 type PropertyTypes = keyof Profile;
-
+//keyof jsのオブジェクト。
 type Optional<T> = {
   [P in keyof T]?: T[P] |null;
 };
+//keyofはオブジェクトのキーを取り出す。nameがこの場合、キーで、stringやnumberがバリュー。
 
 type OptionalProfile = Optional<Profile>;
 
