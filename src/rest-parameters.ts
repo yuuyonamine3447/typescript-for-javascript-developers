@@ -15,3 +15,4 @@ console.log(sum(1,2,3,4,5));
 //sum(1,2,3,4,5);
 
 //[1,2,3,4].reduce(reducer);
+//要確認

@@ -16,7 +16,7 @@ namespace English{
       public lastName: string){}
     }
   }
-
+//namespaceを使う理由として、クラスは一つしか使えないから。
 
 const me = new Japanese.Tokyo.Person('ハムさん')
 console.log(me.name);

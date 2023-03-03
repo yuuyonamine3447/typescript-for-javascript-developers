@@ -26,3 +26,5 @@ function double(value: any): any {
 //console.log(double(true));
 console.log(double('Go'));
 console.log(double(100));
+
+//overloadの説明

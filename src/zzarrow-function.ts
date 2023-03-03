@@ -6,5 +6,5 @@ let bmi: (height: number, weight: number) => number= (
   ): number => weight / (height * height);
 
 //矢印が二つある時よくわからん
-//(height: number, weight: number) => number= (を型として考える
+//(height: number, weight: number) => number= (関数の型として考える 
 console.log(bmi(1.78,86));

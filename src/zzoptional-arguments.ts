@@ -7,7 +7,7 @@ let bmi: (height: number, weight: number, printable ?: boolean) => number = (
   ): number => {
     weight / (height * height);
     const bmi: number= weight/ (height * height);
-    
+    //printable?とは
     
     if (printable) {
       console.log(bmi);

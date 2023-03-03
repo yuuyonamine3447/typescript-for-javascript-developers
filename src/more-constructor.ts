@@ -7,3 +7,4 @@ class Person {
 
 const me = new Person('hamusan',43);
 console.log(me);
+//public、protected
