@@ -14,3 +14,5 @@ type SmallProfile = Omit<DetailedProfile,'height'>;
 
 type MyOmit=Pick<DetailedProfile, 'name'|'weight'>;
 type MySmallProfile = MyOmit;
+//omit 除外する、pick　必要なものだけ取り出す
+//ok

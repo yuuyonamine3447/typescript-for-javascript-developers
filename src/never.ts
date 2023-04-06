@@ -11,3 +11,4 @@ try {
 }
 let foo : void= undefined;
 let bar: never = error(`only me!`);
+//一旦保留。neverは何も入れることができないというニュアンス。

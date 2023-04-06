@@ -14,3 +14,5 @@ type FunctioTypeByExtract= Extract<SomeTypes,DebugType>;
 //debugtyoe(関数の型）だけ取り出したい 抽出する。
 type NullableTypes = string | null | undefined;
 type NonnullableTypes = NonNullable<NullableTypes>;
+
+//ok!　Excludeはよく使う！

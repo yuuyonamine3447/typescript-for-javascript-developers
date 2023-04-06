@@ -15,3 +15,4 @@ class Person {
 let taro = new Person("taro",30);
 console.log(taro.profile());
 //thisを使わなかったら何を使うのか
+//classはあまり使わない

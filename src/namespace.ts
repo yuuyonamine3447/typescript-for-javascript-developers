@@ -7,6 +7,7 @@ namespace Japanese{
     }
   }
 }
+//exportは外から参照可能にするため。
 namespace English{
   
   export class Person {
@@ -23,4 +24,5 @@ console.log(me.name);
 const michael = new English.Person("Michael","Joseph","Jackson");
 console.log(michael);
 console.log();
+//ok
 

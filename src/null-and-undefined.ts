@@ -6,3 +6,5 @@ let absence: null = null;
 
 let data: undefined = undefined;
 //data = 123;
+//nullは何もないといったニュアンス。空っぽ。
+//OK

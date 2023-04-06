@@ -2,6 +2,7 @@
 export {};
 
 let dayOfTheweek: '日'|'月'|'火'|'水'|'木'|'金'|'土' = '日';
+
 dayOfTheweek = '月';
 //dayOfTheweek = '31';
 //なぜ4行目のコードとなるのか
@@ -12,3 +13,4 @@ month =12;
 
 let TRUE: true = true;
 //TRUE = false;
+//OK

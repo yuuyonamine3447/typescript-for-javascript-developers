@@ -17,3 +17,4 @@ type OptionalProfile = Optional<Profile>;
 
 //9行目profileはtype Profile = {name: string;age: number;}
 //あるオブジェクトから型を一個ずつ取り出している。
+//Ok
